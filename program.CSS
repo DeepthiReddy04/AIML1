@@ -1,0 +1,28 @@
+p{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+h1{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+*{
+    background-color:black;
+}
+h1{
+    background-color: aliceblue;
+}
+p{
+    background-color: pink;
+}
+.heading{
+    background-color: chartreuse;
+}
+.info{
+    background-color: whitesmoke;
+}
+.a{
+    background-color: aquamarine;
+}

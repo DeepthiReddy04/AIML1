@@ -1,0 +1,142 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Explore India</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        #header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 25px;
+        }
+
+        #header h1 {
+            margin: 0;
+        }
+
+        #main {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .main-image {
+            width: 500px;
+            height: 280px;
+            object-fit: cover;
+            border: 5px solid #333;
+            border-radius: 15px;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 220px;
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        /* Background Image */
+        #travel {
+            margin-top: 40px;
+            padding: 40px;
+            color: white;
+             background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da");
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>EXPLORE INDIA</h1>
+        <p>Discover beautiful destinations</p>
+    </div>
+
+    <div id="main">
+
+        <img class="main-image"
+             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT814CSHczsuuJhu9ZkbdV-KUpGQj2WsistbZ8lc0kw2g&s">
+
+        <h1>Taj Mahal</h1>
+        <p>Agra, Uttar Pradesh, India</p>
+
+        <div class="container">
+
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/word-goa-beach-concept-holiday-background-126110526.jpg">
+                <h2>Goa</h2>
+                <p>Enjoy beautiful beaches and amazing sunsets.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8KYWf_jYyARVgTspllnKUBowGzUa1OSIcR5CeQLx0w&s=10">
+                <h2>Kerala</h2>
+                <p>Explore backwaters, nature and greenery.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAuzSUy3qmA4MFsRnDa94eLKoGQmmZMMQj6IwYGrbYLQ&s=10">
+                <h2>Manali</h2>
+                <p>Experience beautiful mountains and valleys.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlf5NXGVkVz0zRMr88AlOOSGOq8oeR_lMPEcwP1594w&s=10">
+                <h2>Jaipur</h2>
+                <p>Explore the Pink City and its historic forts.</p>
+            </div>
+
+        </div>
+
+        <div id="travel">
+            <h1>WHY SHOULD YOU TRAVEL?</h1>
+            <p>Explore • Experience • Enjoy</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
